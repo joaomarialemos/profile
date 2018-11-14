@@ -26,11 +26,45 @@ h3 {
 
 a {
   text-decoration: none;
-  color: rgb(150, 150, 150);
+  color: #7F888D;
 }
 
 a:hover {
   color: #F4432E;
+}
+
+#sidebar {
+  background-color: #2D3B42;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#page-content {
+  margin-left: 120px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
 }
 
 #profile {
