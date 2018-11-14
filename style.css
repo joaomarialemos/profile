@@ -139,3 +139,11 @@ a:hover {
 .table-format td {
   padding: 12px 0px 2px 17px;
 }
+
+#summary {
+  background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url("./images/beach.jpg");
+  widows: 300%;
+  height: 300px;
+  background-size: cover;
+}
+
